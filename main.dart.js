@@ -81908,7 +81908,7 @@ A.Kt.prototype={
 k(a){return"\uc778\uc6d0 \uc218 : "+this.a+", \uc608\uc57d \uc2dc\uac04 : "+this.b.k(0)}}
 A.YV.prototype={
 I5(a){var s=t.z
-return this.c.HX("https://yugibuteo.com/customer/kakao-in-app",A.aB(["customerIdxEncoded",a],t.N,s),s)},
+return this.c.HX("https://yeogibuteo.com/customer/kakao-in-app",A.aB(["customerIdxEncoded",a],t.N,s),s)},
 qp(){var s=0,r=A.G(t.H),q=this,p
 var $async$qp=A.H(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:p=q.c.SA$
@@ -82002,7 +82002,7 @@ m===$&&A.a()
 p=t.z
 o=A.aB(["customerIdxEncoded",n.a.c],t.N,p)
 s=4
-return A.K(m.c.an4("https://yugibuteo.com/customer/cancel",null,null,A.apx("DELETE",null),o,p),$async$$0)
+return A.K(m.c.an4("https://yeogibuteo.com/customer/cancel",null,null,A.apx("DELETE",null),o,p),$async$$0)
 case 4:s=b.c===200?2:3
 break
 case 2:m=n.r
@@ -82084,7 +82084,7 @@ case 2:s=4
 return A.K(o.qp(),$async$fD)
 case 4:p=q.a.c
 p.toString
-p=o.c.VT("https://yugibuteo.com/customer/"+p,t.z)
+p=o.c.VT("https://yeogibuteo.com/customer/"+p,t.z)
 q.r=p
 s=5
 return A.K(p.bA(new A.ajZ(q),t.P).lF(new A.ak_(q)),$async$fD)
@@ -82319,7 +82319,7 @@ p.toString
 o=t.N
 n=t.z
 s=2
-return A.K(k.c.uF("https://yugibuteo.com/customer/"+p,null,B.bl.FJ(A.aB(["nickname",l.a,"phoneNum",l.b,"numOfPeople",l.c],o,n),null),null,null,A.apx("POST",A.avk(A.aB(["Content-Type","application/json"],o,n))),null,n).bA(new A.ajN(m),t.P),$async$$0)
+return A.K(k.c.uF("https://yeogibuteo.com/customer/"+p,null,B.bl.FJ(A.aB(["nickname",l.a,"phoneNum",l.b,"numOfPeople",l.c],o,n),null),null,null,A.apx("POST",A.avk(A.aB(["Content-Type","application/json"],o,n))),null,n).bA(new A.ajN(m),t.P),$async$$0)
 case 2:return A.E(null,r)}})
 return A.F($async$$0,r)},
 $S:9}

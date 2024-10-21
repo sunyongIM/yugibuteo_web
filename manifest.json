@@ -1,11 +1,11 @@
 {
-    "name": "yugibuteo_mobile",
-    "short_name": "yugibuteo_mobile",
+    "name": "yeogibuteo_mobile",
+    "short_name": "yeogibuteo_mobile",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "yugibuteo mobile web page",
+    "description": "yeogibuteo mobile web page",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
