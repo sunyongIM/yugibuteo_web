@@ -27,7 +27,7 @@
   <link rel="manifest" href="manifest.json">
 
   <script>
-    var serviceWorkerVersion = "3228912658";
+    var serviceWorkerVersion = "843548161";
   </script>
 </head>
 <body>
@@ -63,28 +63,14 @@ Read more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts
 _flutter.buildConfig = {"engineRevision":"c9b9d5780da342eb3f0f5e439a7db06f7d112575","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
 
-<!--        _flutter.loader.load({-->
-<!--            serviceWorker: {-->
-<!--                serviceWorkerVersion: serviceWorkerVersion,-->
-<!--            },-->
-<!--            onEntrypointLoaded: function(engineInitializer) {-->
-<!--                engineInitializer.initializeEngine().then(function(appRunner) {-->
-<!--                appRunner.runApp();-->
-<!--                });-->
-<!--            }-->
-<!--        });-->
-
       _flutter.loader.load({
           serviceWorker: {
               serviceWorkerVersion: serviceWorkerVersion,
           },
           onEntrypointLoaded: async function(engineInitializer) {
           await engineInitializer.autoStart();
-<!--            let appRunner = await engineInitializer.initializeEngine();-->
-<!--            await appRunner.runApp();-->
           }
       });
-
 
 });
 
